@@ -1,14 +1,12 @@
 # Nested Card App
 
-Click to access the [Nested Card App].()
-
 <div align="center">
   <h3 align="center">Nested Card App</h3>
   <p align="center">
     This project is a nested card application.
     Please make sure the Local Storage is cleared before using it.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    [View Demo]()
   </p>
 </div>
 
@@ -53,7 +51,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/xgravellx/nested-card-app.git
    ```
 2. Install NPM packages
    ```sh
