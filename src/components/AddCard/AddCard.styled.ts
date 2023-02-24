@@ -13,7 +13,6 @@ export const Styled = styled.div`
         border: none;
         color: white;
         overflow: hidden;
-
     }
     .add-card-btn {
         width: 100px;
