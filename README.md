@@ -23,7 +23,8 @@
 
 ## About The Project
 
-![card-app-ss](https://user-images.githubusercontent.com/88984994/221144196-c8e2996c-07b1-49c7-b250-1fbcbbf55bd9.jpg)
+![ssss](https://user-images.githubusercontent.com/88984994/221149028-b48a6077-c5c7-4aaa-a75c-a4c5413c79a2.jpg)
+
 
 Child Card is added for each Card created. The Total field on the card is equal to the sum of the input field on the card and the total fields of the child cards.
 
