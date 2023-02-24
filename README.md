@@ -4,7 +4,7 @@
   <h3 align="center">Nested Card App</h3>
   <p align="center">
     This project is a nested card application.
-    Please make sure the Local Storage is cleared before using it.
+    Please make sure the <strong>Local Storage</strong> is cleared before using it.
     <br />
     <a href="https://nested-card-app.vercel.app/">View Demo</a>
   </p>
