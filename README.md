@@ -6,7 +6,7 @@
     This project is a nested card application.
     Please make sure the Local Storage is cleared before using it.
     <br />
-    [View Demo](https://nested-card-app.vercel.app/)
+    <a href="https://nested-card-app.vercel.app/">View Demo</a>
   </p>
 </div>
 
@@ -23,6 +23,7 @@
 
 ## About The Project
 
+![card-app-ss](https://user-images.githubusercontent.com/88984994/221144196-c8e2996c-07b1-49c7-b250-1fbcbbf55bd9.jpg)
 
 Child Card is added for each Card created. The Total field on the card is equal to the sum of the input field on the card and the total fields of the child cards.
 
