@@ -6,7 +6,7 @@
     This project is a nested card application.
     Please make sure the Local Storage is cleared before using it.
     <br />
-    [View Demo](nested-card-n3634vgi0-xgravellx.vercel.app)
+    [View Demo](https://nested-card-app.vercel.app/)
   </p>
 </div>
 
