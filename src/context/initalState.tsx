@@ -6,7 +6,7 @@ export const initialState: State = {
         {
             id: 1673892942109,
             numberInput: 1,
-            total: 0,
+            total: 1,
             parentId: 1673892869157,
             replies: [1673892946955],
             author: "John Doe",
@@ -14,8 +14,8 @@ export const initialState: State = {
         },
         {
             id: 1673892946955,
-            numberInput: 0,
-            total: 0,
+            numberInput: 1,
+            total: 1,
             parentId: 1673892942109,
             replies: [1673892952400],
             author: "John Doe",

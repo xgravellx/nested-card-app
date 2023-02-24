@@ -9,7 +9,7 @@ const AddCard: FC<AddCardProps> = memo(({ addHandler })=> {
 
     const validateInput = (numberInput: number): boolean => {
         if (numberInput === 0) {
-            setError("Please enter something, comment can't be empty")
+            setError("Enter a number higher than zero")
             return false;
         } else {
             setError("")
@@ -26,8 +26,17 @@ const AddCard: FC<AddCardProps> = memo(({ addHandler })=> {
 
   return (
     <Styled className='add-card-component'>
-        <input type='number' value={cardInput} onChange={e => setCardInput(parseInt(e.target.value))} className='input-area block p-3 pl-5 text-sm text-gray-900 rounded-lg focus:ring-indigo-600 focus:border-indigo-600' placeholder="Search Mockups, Logos..." />
-        <button onClick={addCardHandler} className='add-card-btn bg-indigo-600 font-medium rounded-lg text-sm p-3'>Add Card</button>
+        <input 
+            type='number' 
+            value={cardInput} 
+            onChange={e => setCardInput(parseInt(e.target.value))} 
+            className='input-area block p-3 pl-5 text-sm text-gray-900 rounded-lg focus:ring-indigo-600 focus:border-indigo-600' placeholder="Add Card" />
+        
+        <button 
+            onClick={addCardHandler} 
+            className='add-card-btn bg-indigo-600 font-medium rounded-lg text-sm p-3'>
+                Add Card
+        </button>
         { 
             error !== '' 
                 ? <ErrorModal text={error} onClose={() => setError('')} /> 

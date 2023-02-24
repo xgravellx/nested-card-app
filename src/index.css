@@ -6,3 +6,25 @@
 body {
   background-color: #202124;
 }
+
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #5850ec #202124;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #202124;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5850ec;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
